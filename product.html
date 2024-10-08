@@ -594,7 +594,7 @@
 									<span>В КОРЗИНЕ</span>
 								</button>
 
-								<button class="btn quike_buy_btn">ЗАКАЗАТЬ В 1 КЛИК</button>
+								<button class="btn quike_buy_btn modal_btn" data-modal="quike_buy_modal">ЗАКАЗАТЬ В 1 КЛИК</button>
 							</div>
 
 							<button class="favorite_btn">
@@ -2486,6 +2486,45 @@
 
 		<section class="modal" id="callback_modal">
 			<div class="modal_title">Обратный звонок</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя *</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="line agree">
+					<label class="checkbox">
+						<input type="checkbox" name="agree">
+
+						<div class="check">
+							<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+						</div>
+
+						<div>Соглашаюсь на обработку моих персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a>.</div>
+					</label>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="quike_buy_modal">
+			<div class="modal_title">Купить в один клик</div>
 
 			<form action="" class="form">
 				<div class="line">

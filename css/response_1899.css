@@ -877,6 +877,8 @@
 
     .cart_total
     {
+        top: 60px;
+
         padding: 24px;
     }
 

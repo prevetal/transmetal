@@ -623,6 +623,9 @@
     ---------------*/
     .cart_total
     {
+        position: relative;
+        top: 0;
+
         margin-top: 8px;
     }
 
