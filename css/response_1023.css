@@ -1,0 +1,392 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *.width1of3
+    {
+        width: calc(50% - var(--form_columns_offset));
+    }
+
+    .form .columns > *.width2of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .columns > *.width1of4
+    {
+        width: calc(33.333% - var(--form_columns_offset));
+    }
+
+
+    .form .columns > *.width1of6
+    {
+        width: calc(25% - var(--form_columns_offset));
+    }
+
+
+    .form .columns > *.width1of8
+    {
+        width: calc(33.333% - var(--form_columns_offset));
+    }
+
+
+    .form .columns > *.width1of12
+    {
+        width: calc(12.5% - var(--form_columns_offset));
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 24px;
+    }
+
+
+    .text_block .image figure
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .text_block .image > div
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .desc
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .img
+    {
+        width: 50%;
+    }
+
+
+
+    /*-----------------------
+        Category products
+    -----------------------*/
+    .category_products .row > *
+    {
+        width: calc(50% - 4px);
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages:after,
+    .advantages:before
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .advantages .row > *:nth-child(3n+1),
+    .advantages .row > *:nth-child(3n+2),
+    .advantages .row > *:nth-child(3n+3)
+    {
+        width: calc(50% - 40px);
+    }
+
+
+
+    /*------------
+        articles
+    ------------*/
+    .articles .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .articles .row > *.tablet_hide
+    {
+        display: block;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .block_head,
+    .order_block .block_head.big_w
+    {
+        width: 100%;
+    }
+
+
+    .order_block .form,
+    .order_block .block_head.big_w + .form
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------------
+        Sub categories
+    --------------------*/
+    .sub_categories .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 0 20px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 20px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .sub_categories .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+
+    .sub_categories .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .sub_categories .row > *
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+
+        scroll-snap-align: start;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row > *,
+    .content .products .row > *,
+    aside.hide + .content .products .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*------------------
+        Product data
+    ------------------*/
+    .product_data .features .row > *
+    {
+        width: calc(50% - 40px);
+    }
+
+
+
+    /*-----------
+        Files
+    -----------*/
+    .files .row > *
+    {
+        width: calc(50% - 40px);
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info .product .info
+    {
+        width: calc(100% - 180px);
+        padding-right: 48px;
+    }
+
+
+    .cart_info .product .price
+    {
+        margin-top: 20px;
+        margin-left: 180px;
+    }
+
+
+    .cart_info .product .amount
+    {
+        margin-top: 20px;
+    }
+
+
+    .cart_info .product .amount,
+    .cart_info .product .price.total
+    {
+        margin-left: auto;
+    }
+
+
+    .cart_info .product .delete_btn
+    {
+        position: absolute;
+        z-index: 3;
+        top: 10px;
+        right: 10px;
+    }
+
+
+
+    /*------------
+        Orders
+    ------------*/
+    .orders .order .cart_info .product .info
+    {
+        width: calc(100% - 180px);
+    }
+
+
+    .orders .order .cart_info .product .price.total
+    {
+        width: 170px;
+        min-width: 170px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .desc
+    {
+        margin-top: 20px;
+    }
+
+
+    .action_block .data
+    {
+        width: 344px;
+        min-height: 368px;
+        margin-left: -20px;
+        padding: 40px 20px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 320px;
+        margin-left: -20px;
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+
+    footer .logo img
+    {
+        width: 60px;
+    }
+
+
+    footer .categories
+    {
+        margin-left: 0;
+    }
+
+
+    footer .links,
+    footer .contacts
+    {
+        margin-left: 0;
+    }
+
+
+    footer .copyright
+    {
+        width: auto;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        width: auto;
+        margin-left: 0;
+    }
+
+
+    footer .messengers
+    {
+        width: auto;
+        margin-left: 0;
+    }
+}

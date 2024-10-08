@@ -1,0 +1,740 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 100%;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        margin-left: -200px;
+    }
+
+
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .header_wrap
+    {
+        height: auto !important;
+    }
+
+
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        right: 100%;
+        left: auto;
+
+        width: 325px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 0;
+
+        transition: transform .3s linear;
+
+        background: #fff;
+    }
+
+
+    header.show
+    {
+        transform: translateX(100%);
+    }
+
+
+    header .scroll
+    {
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+
+        overscroll-behavior-y: contain;
+    }
+
+
+
+    header .data
+    {
+        order: 2;
+
+        padding: 20px 0;
+    }
+
+
+    header .logo,
+    header .search,
+    header .links_icons
+    {
+        display: none;
+    }
+
+
+    header .contacts
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    header .phones
+    {
+        display: block;
+
+        gap: 0;
+    }
+
+
+    header .phones .sep
+    {
+        display: none;
+    }
+
+
+    header .info
+    {
+        width: 100%;
+    }
+
+
+    header .links
+    {
+        display: block;
+
+        width: 100%;
+
+        gap: 0;
+    }
+
+
+    header .links > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+    header .messengers
+    {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    header .catalog
+    {
+        width: calc(100% + 20px);
+        max-width: calc(100% + 20px);
+        margin-right: -20px;
+    }
+
+
+    header .catalog .btn
+    {
+        font-size: 17px;
+
+        height: 56px;
+    }
+
+
+    header .catalog .mini_modal
+    {
+        position: relative;
+        top: 0;
+
+        display: none;
+
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+
+    header .catalog .mini_modal.active
+    {
+        display: block;
+    }
+
+
+    header .catalog .mini_modal .row
+    {
+        margin-left: 0;
+
+        gap: 0;
+    }
+
+
+    header .catalog .mini_modal .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    header .catalog .mini_modal .row > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    header .categories
+    {
+        display: none;
+
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 10px 0;
+    }
+
+
+    header .categories .item a
+    {
+        font-size: 15px;
+
+        display: block;
+
+        width: 100%;
+        height: auto;
+        padding: 10px 20px;
+    }
+
+
+    header .categories .item a br
+    {
+        display: none;
+    }
+
+
+
+    header.fixed .data
+    {
+        position: relative;
+
+        height: auto;
+        padding: 20px 0;
+
+        color: var(--sidebar_width);
+    }
+
+
+    header.fixed .data .cont
+    {
+        height: auto;
+    }
+
+
+    header.fixed .location
+    {
+        display: flex;
+    }
+
+
+    header.fixed .contacts
+    {
+        margin-left: 0;
+    }
+
+
+    header.fixed .phones
+    {
+        margin-top: 16px;
+    }
+
+
+    header.fixed .info
+    {
+        width: 100%;
+    }
+
+
+    header.fixed .messengers
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*-----------------
+        Mob. search
+    -----------------*/
+    .mob_search
+    {
+        display: block;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .all_link
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    .block_head .desc br
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .image figure
+    {
+        width: 440px;
+    }
+
+
+    .text_block .image > div
+    {
+        width: calc(100% - 466px);
+        padding-bottom: 20px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 22px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside:not(.default)
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        right: 100%;
+
+        display: block;
+        overflow: auto;
+
+        width: 375px;
+        max-width: 100vw;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+
+        transition: transform .2s linear;
+        transform: translateX(100%);
+
+        background: var(--bg);
+
+        overscroll-behavior-y: contain;
+    }
+
+
+    aside:not(.default).hide
+    {
+        display: block;
+
+        transform: translateX(0);
+    }
+
+
+    aside .filter .mob_head
+    {
+        display: flex;
+    }
+
+
+    aside .filter .submit
+    {
+        gap: 20px;
+    }
+
+
+    aside .filter .submit_btn,
+    aside .filter .submit .btn
+    {
+        padding: 0 23px;
+    }
+
+
+    aside .filter_btn
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .img
+    {
+        width: calc(50% + 200px);
+    }
+
+
+
+    /*-----------------------
+        Category products
+    -----------------------*/
+    .category_products .product .name
+    {
+        width: calc(100% - 120px);
+        padding: 12px;
+    }
+
+
+    .category_products .product .price
+    {
+        font-size: 13px;
+
+        min-width: 112px;
+        padding: 8px 16px;
+    }
+
+
+    .category_products .product .price span
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages:after,
+    .advantages:before
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+    .advantages .item
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*------------
+        articles
+    ------------*/
+    .articles .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+    .articles .row > *.tablet_hide
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .block_head,
+    .order_block .block_head.big_w
+    {
+        width: calc(100% - 613px);
+    }
+
+
+    .order_block .form,
+    .order_block .block_head.big_w + .form
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*-------------------
+        Products head
+    -------------------*/
+    .products_head
+    {
+        padding: 0;
+    }
+
+
+    .products_head .filter_btn
+    {
+        position: relative;
+        top: 0;
+
+        margin-right: auto;
+
+        transform: none;
+    }
+
+
+    .products_head .limit,
+    .products_head .sort
+    {
+        margin-left: 40px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row > *,
+    .content .products .row > *,
+    aside.hide + .content .products .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .product_info .data,
+    .product_info .buy
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*------------------
+        Product data
+    ------------------*/
+    .product_data .head .title
+    {
+        font-size: 24px;
+        line-height: calc(100% + 8px);
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_total
+    {
+        margin-top: 8px;
+    }
+
+
+    .cart_total .features > *
+    {
+        flex-wrap: nowrap;
+    }
+
+
+    .cart_total .features .val
+    {
+        font-weight: 500;
+
+        width: 140px;
+        min-width: 140px;
+    }
+
+
+    .cart_total .features .total_price
+    {
+        font-weight: 700;
+    }
+
+
+    .cart_total .features .line
+    {
+        display: block;
+    }
+
+
+
+    /*-------------------
+        Checkout info
+    -------------------*/
+    .checkout_info .form .submit
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Orders
+    ------------*/
+    .orders .order .cart_info .product .info
+    {
+        width: calc(100% - 580px);
+    }
+
+
+    .orders .order .cart_info .product .price.total
+    {
+        width: 120px;
+        min-width: 120px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        width: 360px;
+        min-height: 400px;
+        padding: 24px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding: 100px 0;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 360px;
+        padding: 24px;
+    }
+
+
+    .contacts_info .messengers
+    {
+        margin-top: 24px;
+
+        gap: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .categories .items
+    {
+        column-count: 1;
+        gap: 10px;
+    }
+
+
+    footer .creator
+    {
+        order: 3;
+
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+}

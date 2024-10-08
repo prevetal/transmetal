@@ -1,0 +1,160 @@
+.swiper-button-next,
+.swiper-button-prev
+{
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 33px;
+    height: 43px;
+    margin: auto 0;
+
+    transition: color .2s linear;
+    transform: none;
+
+    color: currentColor;
+    border-radius: 0;
+    background: none;
+}
+
+
+.swiper-button-prev
+{
+    left: 50%;
+
+    margin-left: -870px;
+}
+
+.swiper-button-next
+{
+    right: 50%;
+
+    margin-right: -870px;
+}
+
+
+.swiper-button-next:after,
+.swiper-button-prev:after
+{
+    display: none;
+}
+
+
+.swiper-button-next .icon,
+.swiper-button-prev .icon
+{
+    display: block;
+
+    width: 13px;
+    height: 23px;
+}
+
+
+.swiper-button-prev .icon
+{
+    transform: rotate(180deg);
+}
+
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled
+{
+    display: none;
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover
+{
+    color: var(--text_color);
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    width: auto;
+    height: 80px;
+    margin-left: -285px;
+
+    counter-reset: number;
+    pointer-events: none;
+
+    gap: 36px;
+}
+
+
+.swiper-pagination-bullet
+{
+    font-weight: 500;
+    line-height: 20px;
+
+    position: relative;
+
+    display: block;
+
+    width: auto;
+    height: auto;
+
+    transition: .2s linear;
+    white-space: nowrap;
+    pointer-events: auto;
+
+    opacity: 1;
+    color: currentColor;
+    border-radius: 0;
+    background: none;
+}
+
+
+.swiper-pagination-bullet:before
+{
+    content: counter(number, decimal-leading-zero);
+    counter-increment: number;
+}
+
+
+.swiper-pagination-bullet:hover
+{
+    color: var(--text_color);
+}
+
+
+.swiper-pagination-bullet.active
+{
+    font-weight: 700;
+
+    color: var(--text_color);
+}
+
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}

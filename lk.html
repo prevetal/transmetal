@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Adapting the page for mobile devices -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Prohibition of phone number recognition -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Page title -->
+		<title>Заголовок страницы</title>
+
+		<!-- Meta description -->
+		<meta name="description" content="">
+
+		<!-- Meta Keywords -->
+		<meta name="keywords" content="">
+
+		<!-- Site icon, size 32x32, transparency supported. Recommended format: .ico or .png -->
+		<link rel="shortcut icon" href="favicon.png">
+
+		<!-- Changing the color of the mobile browser panel -->
+		<meta name="msapplication-TileColor" content="#000000">
+		<meta name="theme-color" content="#000000">
+
+		<!-- Connecting fonts from Google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+		<!-- Connecting style files -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/ion.rangeSlider.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)" async>
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)" async>
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="mob_close_btn"></button>
+
+					<div class="scroll">
+						<div class="data">
+							<div class="cont row">
+								<a href="/" class="logo">
+									<img src="images/logo.png" alt="">
+									<img src="images/logo_small.png" alt="">
+								</a>
+
+								<div class="contacts">
+									<div class="location">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+										<span>Магнитогорск</span>
+									</div>
+
+									<div class="phones">
+										<div class="phone">
+											<a href="tel:+7 (3519) 25-82-00">+7 (3519) 25-82-00</a>
+										</div>
+
+										<div class="sep"></div>
+
+										<div class="phone">
+											<a href="tel:8 (912) 806-75-81">8 (912) 806-75-81</a>
+										</div>
+									</div>
+
+									<button class="callback_btn modal_btn" data-modal="callback_modal">ОБРАТНЫЙ ЗВОНОК</button>
+								</div>
+
+								<div class="info">
+									<div class="links">
+										<div><a href="/">О компании</a></div>
+
+										<div><a href="/">Блог</a></div>
+
+										<div><a href="/">Контакты</a></div>
+									</div>
+
+									<div class="messengers">
+										<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+										</a>
+
+										<a href="/" target="_blank" rel="noopener nofollow" class="tg_link">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_tg"></use></svg>
+										</a>
+
+										<a href="/" target="_blank" rel="noopener nofollow" class="viber_link">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_viber"></use></svg>
+										</a>
+									</div>
+
+									<form action="" class="search">
+										<div class="field">
+											<input type="text" name="" value="" class="input" placeholder="Поиск">
+										</div>
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+									</form>
+								</div>
+
+								<div class="links_icons">
+									<div class="account">
+										<a class="btn active">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+										</a>
+									</div>
+
+									<div class="favorite">
+										<a href="/" class="btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<span>13</span>
+										</a>
+									</div>
+
+									<div class="cart">
+										<a href="/" class="btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+											<span>3</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="bottom">
+							<div class="cont row">
+								<div class="catalog modal_cont">
+									<button class="btn mini_modal_btn" data-modal-id="#catalog_modal">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+										<span>КАТАЛОГ</span>
+									</button>
+
+									<div class="mini_modal" id="catalog_modal">
+										<div class="cont">
+											<div class="row">
+												<div class="col">
+													<div class="item">
+														<div class="main">
+															<a href="/">Ареометры и цилиндры</a>
+														</div>
+
+														<div class="sub">
+															<div><a href="/">Мерники</a></div>
+
+															<div><a href="/">Метроштоки</a></div>
+
+															<div><a href="/">Рулетки</a></div>
+
+															<div><a href="/">Индикаторная паста</a></div>
+
+															<div><a href="/">Пробоотборники</a></div>
+
+															<div><a href="/">Октанометры</a></div>
+
+															<div><a href="/">Заборные ведра</a></div>
+														</div>
+													</div>
+												</div>
+
+												<div class="col">
+													<div class="item">
+														<div class="main">
+															<a href="/">Металл-плюс</a>
+														</div>
+
+														<div class="sub">
+															<div><a href="/">Колонки и счетчики</a></div>
+
+															<div><a href="/">Фильтры для газа</a></div>
+
+															<div><a href="/">Струбцины и пистолеты</a></div>
+
+															<div><a href="/">Байпасные клапаны</a></div>
+
+															<div><a href="/">Клапаны для емкостей</a></div>
+
+															<div><a href="/">Клапаны трубопровода</a></div>
+
+															<div><a href="/">Шланги, рукава сливные</a></div>
+
+															<div><a href="/">Насосы для газа (СУГ)</a></div>
+
+															<div><a href="/">Металлорукава</a></div>
+														</div>
+													</div>
+												</div>
+
+												<div class="col">
+													<div class="item">
+														<div class="main">
+															<a href="/">Искробезопасные инструменты</a>
+														</div>
+													</div>
+
+													<div class="item">
+														<div class="main">
+															<a href="/">Таблички «Опасный груз»</a>
+														</div>
+													</div>
+
+													<div class="item">
+														<div class="main">
+															<a href="/">Соединения Camlock (алюминий)</a>
+														</div>
+													</div>
+												</div>
+
+												<div class="col">
+													<div class="item">
+														<div class="main">
+															<a href="/">Заправочные пистолеты</a>
+														</div>
+
+														<div class="sub columns">
+															<div>
+																<div><a href="/">ZVA Elaflex</a></div>
+
+																<div><a href="/">OPW (США)</a></div>
+
+																<div><a href="/">Россия</a></div>
+
+																<div><a href="/">ZYQ (Китай)</a></div>
+
+																<div><a href="/">BAOTAI</a></div>
+
+																<div><a href="/">AILE</a></div>
+
+																<div><a href="/">PIUSI</a></div>
+															</div>
+
+															<div>
+																<div><a href="/">Adam Pumps</a></div>
+
+																<div><a href="/">Пистолеты для масла</a></div>
+
+																<div><a href="/">Пистолеты для бензина, ДТ</a></div>
+
+																<div><a href="/">Пистолеты для газа (LPG)</a></div>
+
+																<div><a href="/">Краны-счетчики</a></div>
+
+																<div><a href="/">Комплектующие и запасные части</a></div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="col">
+													<div class="item">
+														<div class="main">
+															<a href="/">Счетчики для дизельного топлива</a>
+														</div>
+
+														<div class="sub">
+															<div><a href="/">Счетчики/Расходомеры "Piusi"</a></div>
+
+															<div><a href="/">Счетчики "China"</a></div>
+
+															<div><a href="/">Счетчики топлива "Benza"</a></div>
+
+															<div><a href="/">Счетчики АЗС отечественного производства</a></div>
+
+															<div><a href="/">Счетчики жидкости ППО</a></div>
+
+															<div><a href="/">Счетчики жидкости ППВ</a></div>
+
+															<div><a href="/">Электронные расходомеры</a></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<nav class="categories">
+									<div class="item">
+										<a href="/">Ареометры<br> и цилиндры</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Металл-<br> плюс</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Искробезопасные<br> инструменты</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Таблички<br> «Опасный груз»</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Соединения Camlock<br> (алюминий)</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Заправочные<br> пистолеты</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Счетчики для<br> дизельного топлива</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+							<img src="images/logo_small.png" alt="">
+						</a>
+
+						<div class="links_icons">
+							<div class="account">
+								<button class="btn modal_btn" data-modal="login_modal">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+								</button>
+							</div>
+
+							<div class="favorite">
+								<a href="/" class="btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+									<span>13</span>
+								</a>
+							</div>
+
+							<div class="cart">
+								<a href="/" class="btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+									<span>3</span>
+								</a>
+							</div>
+
+							<div class="btn mob_menu_btn">
+								<button class="btn">
+									<span></span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="mob_search">
+					<div class="cont">
+						<form action="">
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="Поиск">
+							</div>
+
+							<button type="submit" class="submit_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+						</form>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a>
+							<span class="sep"></span>
+
+							<span class="current">Личный кабинет</span>
+						</div>
+
+						<h1 class="page_title">Личный кабинет</h1>
+					</div>
+				</section>
+
+
+				<section class="lk_info block">
+					<div class="cont">
+						<form action="" class="form">
+							<div class="section">
+								<div class="title">Данные покупателя</div>
+
+								<div class="columns">
+									<div class="line width1of4">
+										<div class="label">Фамилия</div>
+
+										<div class="field">
+											<input type="text" name="" value="Василевский" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of4">
+										<div class="label">Имя *</div>
+
+										<div class="field">
+											<input type="text" name="" value="Денис" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of4">
+										<div class="label">Отчество</div>
+
+										<div class="field">
+											<input type="text" name="" value="Валерьевич" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of8">
+										<div class="label">Дата рождения</div>
+
+										<div class="field">
+											<input type="text" name="" value="13.03.1973" class="input input_date">
+
+											<div class="icon">
+												<svg><use xlink:href="images/sprite.svg#ic_calendar"></use></svg>
+											</div>
+										</div>
+									</div>
+
+									<div class="line width1of4">
+										<div class="label">Телефон *</div>
+
+										<div class="field">
+											<input type="tel" name="" value="+7 (3519) 25-98-63" class="input" placeholder="+7">
+										</div>
+									</div>
+
+									<div class="line width1of4">
+										<div class="label">E-mail *</div>
+
+										<div class="field">
+											<input type="email" name="" value="vasilevskidenis@gmail.com" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of4">
+										<div class="label">Город</div>
+
+										<div class="field">
+											<input type="email" name="" value="Магнитогорск" class="input">
+										</div>
+									</div>
+								</div>
+
+								<div class="columns">
+									<div class="submit width1of4">
+										<button type="submit" class="btn">СОХРАНИТЬ ИЗМЕНЕНИЯ</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="section">
+								<div class="title">Данные организации</div>
+
+								<div class="columns">
+									<div class="line width1of4">
+										<div class="label">Название организации</div>
+
+										<div class="field">
+											<input type="email" name="" value="ООО «Промгазтехника»" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of4">
+										<div class="label">Юридический адрес</div>
+
+										<div class="field">
+											<input type="email" name="" value="г. Магнитогорск, ул. Строителей, 8-350" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of8">
+										<div class="label">ИНН</div>
+
+										<div class="field">
+											<input type="number" name="" value="7708001614" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of8">
+										<div class="label">КПП</div>
+
+										<div class="field">
+											<input type="number" name="" value="774301002" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of8">
+										<div class="label">Наименование банка</div>
+
+										<div class="field">
+											<input type="text" name="" value="АО «ОТП Банк»" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of8">
+										<div class="label">БИК</div>
+
+										<div class="field">
+											<input type="number" name="" value="044525311" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of4">
+										<div class="label">Корреспондентский счет</div>
+
+										<div class="field">
+											<input type="number" name="" value="30101810000000000526" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of4">
+										<div class="label">Расчетный счет</div>
+
+										<div class="field">
+											<input type="text" name="" value="3030BIL8093500000078" class="input">
+										</div>
+									</div>
+								</div>
+
+								<div class="columns">
+									<div class="line files width1of4">
+										<a href="/" class="file">
+											<div class="icon">
+												<img src="images/ic_file.svg" alt="" loading="lazy">
+											</div>
+
+											<div>
+												<div class="name">Банковские реквизиты компании</div>
+
+												<div class="info">DOC, 1.9 Мб</div>
+											</div>
+
+											<button type="button" class="remove_btn">
+												<svg><use xlink:href="images/sprite.svg#ic_remove"></use></svg>
+
+												<div class="tooltip">
+													<span>Удалить файл</span>
+												</div>
+											</button>
+										</a>
+									</div>
+								</div>
+
+								<div class="columns">
+									<div class="submit width1of4">
+										<button type="submit" class="btn">СОХРАНИТЬ ИЗМЕНЕНИЯ</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="section">
+								<div class="title">Смена пароля</div>
+
+								<div class="columns">
+									<div class="line width1of4">
+										<div class="label">Действующий пароль</div>
+
+										<div class="field">
+											<input type="password" name="" value="" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of4">
+										<div class="label">Новый пароль</div>
+
+										<div class="field">
+											<input type="password" name="" value="" class="input">
+										</div>
+									</div>
+
+									<div class="line width1of4">
+										<div class="label">Новый пароль (еще раз)</div>
+
+										<div class="field">
+											<input type="password" name="" value="" class="input">
+										</div>
+									</div>
+								</div>
+
+								<div class="columns">
+									<div class="submit width1of4">
+										<button type="submit" class="btn">СОХРАНИТЬ ИЗМЕНЕНИЯ</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+
+
+				<section class="orders block">
+					<div class="cont">
+						<div class="block_head small_m">
+							<div class="title">История заказов</div>
+						</div>
+
+						<div class="list">
+							<div class="order">
+								<div class="head">
+									<div class="number">1500936</div>
+
+									<div class="date">16.09.2024</div>
+
+									<div class="status brown">В обработке</div>
+
+									<div class="price">12 390 руб.</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+									</div>
+								</div>
+
+								<div class="data">
+									<div class="cart_info">
+										<div class="list">
+											<div class="product">
+												<a href="/" class="thumb">
+													<img src="images/tmp/cart_product_thumb1.png" alt="" loading="lazy">
+												</a>
+
+												<div class="info">
+													<div class="name">
+														<a href="/">К33 ver. A дизель - 3-х разрядный счетчик отпуска топлива</a>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="label">Производитель</div>
+															<div class="line"></div>
+															<div class="val">Piusi</div>
+														</div>
+
+														<div>
+															<div class="label">Артикул</div>
+															<div class="line"></div>
+															<div class="val">0101808</div>
+														</div>
+
+														<div>
+															<div class="label">Размеры, мм</div>
+															<div class="line"></div>
+															<div class="val">176x176x128</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="price">
+													<div><span>23 350</span> руб.</div>
+												</div>
+
+												<div class="amount">1 шт.</div>
+
+												<div class="price total">
+													<div><span>23 350</span> руб.</div>
+												</div>
+											</div>
+
+											<div class="product">
+												<a href="/" class="thumb">
+													<img src="images/tmp/cart_product_thumb2.png" alt="" loading="lazy">
+												</a>
+
+												<div class="info">
+													<div class="name">
+														<a href="/">Кран раздаточный Petroll LLY-15 со счетчиком</a>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="label">Производитель</div>
+															<div class="line"></div>
+															<div class="val">ZYQ</div>
+														</div>
+
+														<div>
+															<div class="label">Артикул</div>
+															<div class="line"></div>
+															<div class="val">H569008</div>
+														</div>
+
+														<div>
+															<div class="label">Пропускная способность, л/мин.</div>
+															<div class="line"></div>
+															<div class="val">25-40</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="price">
+													<div><span>3 480</span> руб.</div>
+													<div class="old">4 160 руб.</div>
+												</div>
+
+												<div class="amount">1 шт.</div>
+
+												<div class="price total">
+													<div><span>3 480</span> руб.</div>
+												</div>
+											</div>
+
+											<div class="product">
+												<a href="/" class="thumb">
+													<img src="images/tmp/cart_product_thumb3.png" alt="" loading="lazy">
+												</a>
+
+												<div class="info">
+													<div class="name">
+														<a href="/">Камлок алюминиевый с фиксаторами кулачкового типа</a>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="label">Производитель</div>
+															<div class="line"></div>
+															<div class="val">Braex</div>
+														</div>
+
+														<div>
+															<div class="label">Артикул</div>
+															<div class="line"></div>
+															<div class="val">14420-7</div>
+														</div>
+
+														<div>
+															<div class="label">Материал</div>
+															<div class="line"></div>
+															<div class="val">Алюминий</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="price">
+													<div><span>414</span> руб.</div>
+												</div>
+
+												<div class="amount">1 шт.</div>
+
+												<div class="price total">
+													<div><span>828</span> руб.</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="order">
+								<div class="head">
+									<div class="number">2650963</div>
+
+									<div class="date">22.06.2024</div>
+
+									<div class="status green">Завершен</div>
+
+									<div class="price">27 658 руб.</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+									</div>
+								</div>
+
+								<div class="data">
+									<div class="cart_info">
+										<div class="list">
+											<div class="product">
+												<a href="/" class="thumb">
+													<img src="images/tmp/cart_product_thumb1.png" alt="" loading="lazy">
+												</a>
+
+												<div class="info">
+													<div class="name">
+														<a href="/">К33 ver. A дизель - 3-х разрядный счетчик отпуска топлива</a>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="label">Производитель</div>
+															<div class="line"></div>
+															<div class="val">Piusi</div>
+														</div>
+
+														<div>
+															<div class="label">Артикул</div>
+															<div class="line"></div>
+															<div class="val">0101808</div>
+														</div>
+
+														<div>
+															<div class="label">Размеры, мм</div>
+															<div class="line"></div>
+															<div class="val">176x176x128</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="price">
+													<div><span>23 350</span> руб.</div>
+												</div>
+
+												<div class="amount">1 шт.</div>
+
+												<div class="price total">
+													<div><span>23 350</span> руб.</div>
+												</div>
+											</div>
+
+											<div class="product">
+												<a href="/" class="thumb">
+													<img src="images/tmp/cart_product_thumb2.png" alt="" loading="lazy">
+												</a>
+
+												<div class="info">
+													<div class="name">
+														<a href="/">Кран раздаточный Petroll LLY-15 со счетчиком</a>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="label">Производитель</div>
+															<div class="line"></div>
+															<div class="val">ZYQ</div>
+														</div>
+
+														<div>
+															<div class="label">Артикул</div>
+															<div class="line"></div>
+															<div class="val">H569008</div>
+														</div>
+
+														<div>
+															<div class="label">Пропускная способность, л/мин.</div>
+															<div class="line"></div>
+															<div class="val">25-40</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="price">
+													<div><span>3 480</span> руб.</div>
+													<div class="old">4 160 руб.</div>
+												</div>
+
+												<div class="amount">1 шт.</div>
+
+												<div class="price total">
+													<div><span>3 480</span> руб.</div>
+												</div>
+											</div>
+
+											<div class="product">
+												<a href="/" class="thumb">
+													<img src="images/tmp/cart_product_thumb3.png" alt="" loading="lazy">
+												</a>
+
+												<div class="info">
+													<div class="name">
+														<a href="/">Камлок алюминиевый с фиксаторами кулачкового типа</a>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="label">Производитель</div>
+															<div class="line"></div>
+															<div class="val">Braex</div>
+														</div>
+
+														<div>
+															<div class="label">Артикул</div>
+															<div class="line"></div>
+															<div class="val">14420-7</div>
+														</div>
+
+														<div>
+															<div class="label">Материал</div>
+															<div class="line"></div>
+															<div class="val">Алюминий</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="price">
+													<div><span>414</span> руб.</div>
+												</div>
+
+												<div class="amount">1 шт.</div>
+
+												<div class="price total">
+													<div><span>828</span> руб.</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="order">
+								<div class="head">
+									<div class="number">8609575</div>
+
+									<div class="date">03.05.2024</div>
+
+									<div class="status red">Отменен</div>
+
+									<div class="price">9 480 руб.</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+									</div>
+								</div>
+
+								<div class="data">
+									<div class="cart_info">
+										<div class="list">
+											<div class="product">
+												<a href="/" class="thumb">
+													<img src="images/tmp/cart_product_thumb1.png" alt="" loading="lazy">
+												</a>
+
+												<div class="info">
+													<div class="name">
+														<a href="/">К33 ver. A дизель - 3-х разрядный счетчик отпуска топлива</a>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="label">Производитель</div>
+															<div class="line"></div>
+															<div class="val">Piusi</div>
+														</div>
+
+														<div>
+															<div class="label">Артикул</div>
+															<div class="line"></div>
+															<div class="val">0101808</div>
+														</div>
+
+														<div>
+															<div class="label">Размеры, мм</div>
+															<div class="line"></div>
+															<div class="val">176x176x128</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="price">
+													<div><span>23 350</span> руб.</div>
+												</div>
+
+												<div class="amount">1 шт.</div>
+
+												<div class="price total">
+													<div><span>23 350</span> руб.</div>
+												</div>
+											</div>
+
+											<div class="product">
+												<a href="/" class="thumb">
+													<img src="images/tmp/cart_product_thumb2.png" alt="" loading="lazy">
+												</a>
+
+												<div class="info">
+													<div class="name">
+														<a href="/">Кран раздаточный Petroll LLY-15 со счетчиком</a>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="label">Производитель</div>
+															<div class="line"></div>
+															<div class="val">ZYQ</div>
+														</div>
+
+														<div>
+															<div class="label">Артикул</div>
+															<div class="line"></div>
+															<div class="val">H569008</div>
+														</div>
+
+														<div>
+															<div class="label">Пропускная способность, л/мин.</div>
+															<div class="line"></div>
+															<div class="val">25-40</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="price">
+													<div><span>3 480</span> руб.</div>
+													<div class="old">4 160 руб.</div>
+												</div>
+
+												<div class="amount">1 шт.</div>
+
+												<div class="price total">
+													<div><span>3 480</span> руб.</div>
+												</div>
+											</div>
+
+											<div class="product">
+												<a href="/" class="thumb">
+													<img src="images/tmp/cart_product_thumb3.png" alt="" loading="lazy">
+												</a>
+
+												<div class="info">
+													<div class="name">
+														<a href="/">Камлок алюминиевый с фиксаторами кулачкового типа</a>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="label">Производитель</div>
+															<div class="line"></div>
+															<div class="val">Braex</div>
+														</div>
+
+														<div>
+															<div class="label">Артикул</div>
+															<div class="line"></div>
+															<div class="val">14420-7</div>
+														</div>
+
+														<div>
+															<div class="label">Материал</div>
+															<div class="line"></div>
+															<div class="val">Алюминий</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="price">
+													<div><span>414</span> руб.</div>
+												</div>
+
+												<div class="amount">1 шт.</div>
+
+												<div class="price total">
+													<div><span>828</span> руб.</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="logo">
+						<img src="images/footer_logo.png" alt="">
+					</div>
+
+					<div class="categories">
+						<div class="title">
+							<a href="/">Продукция</a>
+						</div>
+
+						<div class="items">
+							<div><a href="/">Металл-плюс</a></div>
+
+							<div><a href="/">Ареометры и цилиндры</a></div>
+
+							<div><a href="/">Искробезопасные инструменты</a></div>
+
+							<div><a href="/">Таблички «Опасный груз»</a></div>
+
+							<div><a href="/">Соединения Camlock (алюминий)</a></div>
+
+							<div><a href="/">Счетчики для дизельного топлива</a></div>
+						</div>
+					</div>
+
+					<div class="links">
+						<div><a href="/">О компании</a></div>
+
+						<div><a href="/">Новости</a></div>
+
+						<div><a href="/">Блог</a></div>
+
+						<div><a href="/">Контакты</a></div>
+					</div>
+
+					<div class="contacts">
+						<div class="title">Контакты</div>
+
+						<div class="location">455000, Россия, Челябинская обл., г. Магнитогорск,<br> ул. Клубная, д.7</div>
+
+						<div class="phones">
+							<div><a href="tel:+7 (3519) 25-82-00">+7 (3519) 25-82-00</a></div>
+							<div><a href="tel:8 (912) 806-75-81">8 (912) 806-75-81</a></div>
+						</div>
+
+						<div class="email">
+							<a href="mailto:transm2000@mail.ru">transm2000@mail.ru</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cont row">
+					<div class="copyright">
+						<div>&copf; 2023 ООО «Транс-металл»</div>
+
+						<div>Все права защищены</div>
+					</div>
+
+					<div class="privacy_policy_link">
+						<a href="/">Политика конфиденцальности </a>
+					</div>
+
+					<div class="creator">
+						<a href="/" target="_blank" rel="noopener">Создание сайта <span>Точка.ру</span></a>
+					</div>
+
+					<div class="messengers">
+						<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="tg_link">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_tg"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="viber_link">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_viber"></use></svg>
+						</a>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<section class="modal" id="login_modal">
+			<div class="modal_title">Авторизация</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">E-mail (логин)</div>
+
+					<div class="field">
+						<input type="email" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Пароль</div>
+
+					<div class="field">
+						<input type="password" name="" value="" class="input">
+					</div>
+
+					<button class="recovery_link modal_btn" data-modal="recovery_modal">Напомнить пароль</button>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">ВОЙТИ</button>
+
+					<button type="button" class="btn modal_btn" data-modal="register_modal">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="recovery_modal">
+			<div class="modal_title">Восстановление пароля</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">E-mail</div>
+
+					<div class="field">
+						<input type="email" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">ВОССТАНОВИТЬ</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal big_w" id="register_modal">
+			<div class="modal_title">Регистрация</div>
+
+			<form action="" class="form">
+				<div class="columns">
+					<div class="line">
+						<div class="label">Имя *</div>
+
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="label">Фамилия</div>
+
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="label">Телефон</div>
+
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="+7">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="label">E-mail *</div>
+
+						<div class="field">
+							<input type="email" name="" value="" class="input">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="label">Пароль *</div>
+
+						<div class="field">
+							<input type="password" name="" value="" class="input">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="label">Пароль (еще раз) *</div>
+
+						<div class="field">
+							<input type="password" name="" value="" class="input">
+						</div>
+					</div>
+				</div>
+
+				<div class="line agree">
+					<label class="checkbox">
+						<input type="checkbox" name="agree">
+
+						<div class="check">
+							<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+						</div>
+
+						<div>Соглашаюсь на обработку моих персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a>.</div>
+					</label>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Обратный звонок</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя *</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="line agree">
+					<label class="checkbox">
+						<input type="checkbox" name="agree">
+
+						<div class="check">
+							<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+						</div>
+
+						<div>Соглашаюсь на обработку моих персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a>.</div>
+					</label>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+				</div>
+			</form>
+		</section>
+
+
+		<!-- Connecting javascript files -->
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/nice-select2.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
