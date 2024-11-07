@@ -175,7 +175,7 @@
         font-size: 15px;
 
         height: 60px;
-        padding: 0 20px;
+        padding: 0 19px;
     }
 
 
@@ -218,6 +218,20 @@
     * + .page_title
     {
         margin-top: 24px;
+    }
+
+
+
+    .page_head .row
+    {
+        margin-top: 24px;
+    }
+
+
+
+    .page_head .logout_btn
+    {
+        margin-left: 60px;
     }
 
 

@@ -2041,6 +2041,44 @@ aside .filter_btn.active .icon + .icon
 
 
 
+.page_head .row
+{
+    margin-top: 36px;
+}
+
+
+
+.page_head .logout_btn
+{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-left: 124px;
+
+    transform: translateY(4px);
+
+    gap: 8px;
+}
+
+
+.page_head .logout_btn .icon
+{
+    display: block;
+
+    width: 20px;
+    height: 20px;
+}
+
+
+
 /*----------------
     Block head
 ----------------*/
